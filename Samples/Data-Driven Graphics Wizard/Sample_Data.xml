@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<records>
+	<record>
+		<varModel>ZX2002</varModel>
+		<msrp>39,950</msrp>
+		<varAction>Live</varAction>
+		<varQuality>luxury</varQuality>
+		<image>luxury.png</image>
+		<url>http://www.triomotors.com/zx2002</url>
+		<varPay>440</varPay>
+		<varTagline>Environmentally smart.</varTagline>
+	</record>
+	
+	<record>
+		<varModel>M210</varModel>
+		<msrp>32,500</msrp>
+		<varAction>Feel</varAction>
+		<varQuality>power</varQuality>
+		<image>power.png</image>
+		<url>http://www.triomotors.com/zr2002</url>
+		<varPay>340</varPay>
+		<varTagline>Electric power in action.</varTagline>
+	</record>
+	
+	<record>
+		<varModel>S220</varModel>
+		<msrp>34,950</msrp>
+		<varAction>Experience</varAction>
+		<varQuality>freedom</varQuality>
+		<image>freedom.png</image>
+		<url>http://www.triomotors.com/ze2002</url>
+		<varPay>300</varPay>
+		<varTagline>Aerodynamic design.</varTagline>
+	</record>
+</records>

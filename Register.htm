@@ -1,0 +1,600 @@
+<html>
+<head>
+<title>Macromedia - Software Registration</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type=text/css>
+BODY {
+	font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 12px
+}
+TD {
+	font-family: Geneva, Arial, Helvetica, sans-serif; font-zize: 12px
+}
+</style>
+<script language="JavaScript">
+function parseURL(){
+  var paramStr = window.location.search.substring(1);
+  var eq = -1, pName = "", pVal = "";
+  if (paramStr.length > 0){
+    var params = paramStr.split("&");
+    for (var i=0; i < params.length; i++){
+      eq = params[i].indexOf("=");
+      pName = params[i].substring(0,eq);
+      pVal = params[i].substring(eq+1);
+      
+      switch (pName){
+        case "100" :
+          document.f0.first.value = unescape(pVal);
+          break;
+        case "102" :
+          document.f0.last.value = unescape(pVal);
+          break;
+        case "103" :
+          document.f0.profile_COMPANY_NAME.value = unescape(pVal);
+          break;
+        case "1001" :
+          document.f0.serial.value = unescape(pVal);
+          break;
+      }
+    }
+  }
+}
+</script>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" onLoad="parseURL()">
+<p> <font face="Verdana, Arial, Helvetica, sans-serif"><b><font size="3">Macromedia 
+  Studio MX Product Registration</font></b></font><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><br>
+  </font><font face="Verdana, Arial, Helvetica, sans-serif">Congratulations on 
+  your new Macromedia purchase. <font face="Verdana, Arial, Helvetica, sans-serif">Register 
+  immediately and receive these free benefits:</font></font></p>
+<ul>
+  <li><font face="Verdana, Arial, Helvetica, sans-serif">Priority upgrade and 
+    new product bulletins.</font></li>
+  <li><font face="Verdana, Arial, Helvetica, sans-serif">Timely emails about product 
+    updates and new content at <a href="http://www.macromedia.com">www.macromedia.com</a>.</font></li>
+</ul>
+<p>&nbsp;</p>
+<p><font face="Verdana, Arial, Helvetica, sans-serif" color="#333399" size="1">* 
+  Indicates required fields </font></p>
+	  <form name="f0">
+  <table width="535" border="0" cellpadding="0" cellspacing=0>
+    <tbody> 
+    <tr> 
+      <td height="344" valign="top"> 
+        <p><font size="1" face="Verdana, Arial, Helvetica, sans-serif"> <b>serial 
+            number</b> <font color="#333399">*</font> <br>
+          <input name="serial" type="text" size="50" maxlength="50">
+          </font></p>
+        <p><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><b>first 
+          name </b><font color="#333399">*</font><br>
+          <input maxlength="50" size="50" 
+                  name="first">
+          </font></p>
+        <p><font size="1" face="Verdana, Arial, Helvetica, sans-serif"> <b>last 
+          name </b><font 
+                  color="#333399">*</font><br>
+          <input maxlength="50" size="50" 
+                  name="last">
+          <br>
+          <br>
+          <b>job title</b><br>
+          <input maxlength="50" size="50" name="jobtitle">
+          <br>
+          <br>
+          <b>company name </b><br>
+          <input 
+            maxlength="50" size="50" name="profile_COMPANY_NAME">
+          <br>
+          <br>
+          <b>phone<br>
+          </b> 
+          <input 
+                  maxlength="25" size="25" name="phone">
+          &nbsp;&nbsp;ext. 
+          <input maxlength="8" size="8" name=phone2>
+          <b> </b></font></p>
+          <p><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><b>e-mail 
+            address</b></font><font color="#333399" size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
+            *</font> <font size="1" face="Verdana, Arial, Helvetica, sans-serif"><br>
+          <b> 
+          <input name="email" type="text" size="50" maxlength="50">
+          </b><br>
+          </font> </p>
+      </td>
+      <td width="10" height="344" valign="top">&nbsp;&nbsp;</td>
+      <td width="0" bgcolor="#CCCCCC" height="344"><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><img height="2" 
+            width=1></font></td>
+      <td width="20" height="344" valign="top">&nbsp;&nbsp;</td>
+      <td valign=top width="80%" height="344"> 
+        <p><font 
+            face="Verdana, Arial, Helvetica, sans-serif" size=1><b>address </b></font><font face="Verdana, Arial, Helvetica, sans-serif" 
+            color="#333399" size=1>*</font><font 
+            face="Verdana, Arial, Helvetica, sans-serif" size=1><br>
+          <input 
+            maxlength="50" size="50" name="address">
+          <br>
+          <input maxlength="50" size="50" name=address2>
+          <br>
+          <input maxlength="50" size="50" name=address3>
+          <br>
+          <br>
+          <b>city </b></font><font 
+            face="Verdana, Arial, Helvetica, sans-serif" color="#333399" 
+            size=1>*</font><font face="Verdana, Arial, Helvetica, sans-serif" 
+            size=1><br>
+          <input maxlength="50" size="50" 
+            name="city">
+          <br>
+          <br>
+          <b>state or province </b><font color="#333399">*</font> <br>
+          US &amp; Canada</font> <br>
+          <font size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
+          <select size="1" name="state">
+            <option value="none" selected>&lt;Select&gt; 
+            <option value="AL">Alabama 
+            <option value="AK">Alaska 
+            <option value="AZ">Arizona 
+            <option value="AR">Arkansas 
+            <option value="CA">California 
+            <option value="CO">Colorado 
+            <option value="CT">Connecticut 
+            <option value="DE">Delaware 
+            <option value="DC">District of Columbia 
+            <option value="FL">Florida 
+            <option value="GA">Georgia 
+            <option value="HI">Hawaii 
+            <option value="ID">Idaho 
+            <option value="IL">Illinois 
+            <option value="IN">Indiana 
+            <option value="IA">Iowa 
+            <option value="KS">Kansas 
+            <option value="KY">Kentucky 
+            <option value="LA">Louisiana 
+            <option value="ME">Maine 
+            <option value="MD">Maryland 
+            <option value="MA">Massachusetts 
+            <option value="MI">Michigan 
+            <option value="MN">Minnesota 
+            <option value="MS">Mississippi 
+            <option value="MO">Missouri 
+            <option value="MT">Montana 
+            <option value="NE">Nebraska 
+            <option value="NV">Nevada 
+            <option value="NH">New Hampshire 
+            <option value="NJ">New Jersey 
+            <option value="NM">New Mexico 
+            <option value="NY">New York 
+            <option value="NC">North Carolina 
+            <option value="ND">North Dakota 
+            <option value="OH">Ohio 
+            <option value="OK">Oklahoma 
+            <option value="OR">Oregon 
+            <option value="PA">Pennsylvania 
+            <option value="RI">Rhode Island 
+            <option value="SC">South Carolina 
+            <option value="SD">South Dakota 
+            <option value="TN">Tennessee 
+            <option value="TX">Texas 
+            <option value="UT">Utah 
+            <option value="VT">Vermont 
+            <option value="VA">Virginia 
+            <option value="WA">Washington 
+            <option value="WV">West Virginia 
+            <option value="WI">Wisconsin 
+            <option value="WY">Wyoming 
+            <option value="GU">Guam 
+            <option value="PR">Puerto Rico 
+            <option value="AA">Armed Forces Americas (AA) 
+            <option value="AE">Armed Forces Outside Americas (AE) 
+            <option value="AP">Armed Forces Pacific (AP) 
+            <option value="NB">New Brunswick 
+            <option value="NF">Newfoundland 
+            <option value="AB">Alberta 
+            <option value="NT">Northwest Territories 
+            <option value="NS">Nova Scotia 
+            <option value="PE">Prince Edward Island 
+            <option value="QC">Quebec 
+            <option value="SK">Saskatchewan 
+            <option value="ON">Ontario 
+            <option value="YK">Yukon Territory 
+            <option value="MB">Manitoba 
+            <option value="BC">British Columbia 
+            <option value="none">None</option>
+          </select>
+          <br>
+          </font><font face="Verdana, Arial, Helvetica, sans-serif" size="1">international 
+          <br>
+          <input maxlength="20" size="20" name="stateInt">
+          </font></p>
+        <p><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> <b>country 
+          </b><font color="#333399">*</font><br>
+          <select size="1" name="country">
+            <option value="">&lt;Select&gt; 
+            <option value="USA">United States 
+            <option value="AFG">Afghanistan 
+            <option value="ALB">Albania 
+            <option value="DZA">Algeria 
+            <option value="ASM">American Samoa 
+            <option value="AND">Andorra 
+            <option value="AGO">Angola 
+            <option value="AIA">Anguilla 
+            <option value="ATA">Antarctica 
+            <option value="ATG">Antigua &amp; Barbuda 
+            <option value="ARG">Argentina 
+            <option value="ARM">Armenia 
+            <option value="ABW">Aruba 
+            <option value="AUS">Australia 
+            <option value="AUT">Austria 
+            <option value="AZE">Azerbaijan 
+            <option value="BHS">Bahamas 
+            <option value="BHR">Bahrain 
+            <option value="BGD">Bangladesh 
+            <option value="BRB">Barbados 
+            <option value="BLR">Belarus 
+            <option value="BEL">Belgium 
+            <option value="BLZ">Belize 
+            <option value="BEN">Benin 
+            <option value="BMU">Bermuda 
+            <option value="BTN">Bhutan 
+            <option value="BOL">Bolivia 
+            <option value="BIH">Bosnia &amp; Herzegowina 
+            <option value="BWA">Botswana 
+            <option value="BVT">Bouvet Island 
+            <option value="BRA">Brazil 
+            <option value="IOT">British Indian Ocean Terr. 
+            <option value="BRN">Brunei Darussalam 
+            <option value="BGR">Bulgaria 
+            <option value="BFA">Burkina Faso 
+            <option value="MMR">Burma (Myanmar) 
+            <option value="BDI">Burundi 
+            <option value="KHM">Cambodia 
+            <option value="CMR">Cameroon 
+            <option value="CAN">Canada 
+            <option value="CPV">Cape Verde 
+            <option value="CYM">Cayman Islands 
+            <option value="CAF">Central African Rep 
+            <option value="TCD">Chad 
+            <option value="CHL">Chile 
+            <option value="CHN">China 
+            <option value="CXR">Christmas Island 
+            <option value="CCK">Cocos (Keeling) Isles 
+            <option value="COL">Colombia 
+            <option value="COM">Comoros 
+            <option value="COG">Congo 
+            <option value="COD">Congo, The Democratic Rep 
+            <option value="COK">Cook Islands 
+            <option value="CRI">Costa Rica 
+            <option value="HRV">Croatia 
+            <option value="CUB">Cuba 
+            <option value="CYP">Cyprus 
+            <option value="CZE">Czech Republic 
+            <option value="DNK">Denmark 
+            <option value="DJI">Djibouti 
+            <option value="DMA">Dominica 
+            <option value="DOM">Dominican Republic 
+            <option value="TMP">East Timor 
+            <option value="ECU">Ecuador 
+            <option value="EGY">Egypt 
+            <option value="SLV">El Salvador 
+            <option value="GNQ">Equatorial Guinea 
+            <option value="ERI">Eritrea 
+            <option value="EST">Estonia 
+            <option value="ETH">Ethiopia 
+            <option value="FLK">Falkland Islands (Malvinas) 
+            <option value="FRO">Faroe Islands 
+            <option value="FJI">Fiji 
+            <option value="FIN">Finland 
+            <option value="FRA">France 
+            <option value="FXX">France, Metro 
+            <option value="GUF">French Guiana 
+            <option value="PYF">French Polynesia 
+            <option value="ATF">French Southern Terr. 
+            <option value="GAB">Gabon 
+            <option value="GMB">Gambia 
+            <option value="GEO">Georgia 
+            <option value="DEU">Germany 
+            <option value="GHA">Ghana 
+            <option value="GIB">Gibraltar 
+            <option value="GRC">Greece 
+            <option value="GRL">Greenland 
+            <option value="GRD">Grenada 
+            <option value="GLP">Guadeloupe 
+            <option value="GUM">Guam 
+            <option value="GTM">Guatemala 
+            <option value="GIN">Guinea 
+            <option value="GNB">Guinea-Bissau 
+            <option value="GUY">Guyana 
+            <option value="HTI">Haiti 
+            <option value="HMD">Heard And Mc Donald Isles 
+            <option value="VAT">Holy See (Vatican) 
+            <option value="HND">Honduras 
+            <option value="HKG">Hong Kong 
+            <option value="HUN">Hungary 
+            <option value="ISL">Iceland 
+            <option value="IND">India 
+            <option value="IDN">Indonesia 
+            <option value="IRN">Iran 
+            <option value="IRQ">Iraq 
+            <option value="IRL">Ireland 
+            <option value="ISR">Israel 
+            <option value="ITA">Italy 
+            <option value="CIV">Ivory Coast (Cote D'Ivoire) 
+            <option value="JAM">Jamaica 
+            <option value="JPN">Japan 
+            <option value="JOR">Jordan 
+            <option value="KAZ">Kazakhstan 
+            <option value="KEN">Kenya 
+            <option value="KIR">Kiribati 
+            <option value="PRK">Korea, Dem People's Rep 
+            <option value="KOR">Korea, Republic Of 
+            <option value="KWT">Kuwait 
+            <option value="KGZ">Kyrgyzstan 
+            <option value="LAO">Laos 
+            <option value="LVA">Latvia 
+            <option value="LBN">Lebanon 
+            <option value="LSO">Lesotho 
+            <option value="LBR">Liberia 
+            <option value="LBY">Libya 
+            <option value="LIE">Liechtenstein 
+            <option value="LTU">Lithuania 
+            <option value="LUX">Luxembourg 
+            <option value="MAC">Macau 
+            <option value="MKD">Macedonia (Republic of) 
+            <option value="MDG">Madagascar 
+            <option value="MWI">Malawi 
+            <option value="MYS">Malaysia 
+            <option value="MDV">Maldives 
+            <option value="MLI">Mali 
+            <option value="MLT">Malta 
+            <option value="MHL">Marshall Islands 
+            <option value="MTQ">Martinique 
+            <option value="MRT">Mauritania 
+            <option value="MUS">Mauritius 
+            <option value="MYT">Mayotte 
+            <option value="MEX">Mexico 
+            <option value="FSM">Micronesia, Fed States 
+            <option value="MDA">Moldova, Rep 
+            <option value="MCO">Monaco 
+            <option value="MNG">Mongolia 
+            <option value="MSR">Montserrat 
+            <option value="MAR">Morocco 
+            <option value="MOZ">Mozambique 
+            <option value="NAM">Namibia 
+            <option value="NRU">Nauru 
+            <option value="NPL">Nepal 
+            <option value="NLD">Netherlands 
+            <option value="ANT">Netherlands Antilles 
+            <option value="NCL">New Caledonia 
+            <option value="NZL">New Zealand 
+            <option value="NIC">Nicaragua 
+            <option value="NER">Niger 
+            <option value="NGA">Nigeria 
+            <option value="NIU">Niue 
+            <option value="NFK">Norfolk Island 
+            <option value="MNP">Northern Mariana Isles 
+            <option value="NOR">Norway 
+            <option value="OMN">Oman 
+            <option value="PAK">Pakistan 
+            <option value="PLW">Palau 
+            <option value="PAN">Panama 
+            <option value="PNG">Papua New Guinea 
+            <option value="PRY">Paraguay 
+            <option value="PER">Peru 
+            <option value="PHL">Philippines 
+            <option value="PCN">Pitcairn 
+            <option value="POL">Poland 
+            <option value="PRT">Portugal 
+            <option value="PRI">Puerto Rico 
+            <option value="QAT">Qatar 
+            <option value="REU">Reunion 
+            <option value="ROM">Romania 
+            <option value="RUS">Russian Federation 
+            <option value="RWA">Rwanda 
+            <option value="KNA">Saint Kitts &amp; Nevis 
+            <option value="LCA">Saint Lucia 
+            <option value="VCT">Saint Vincent &amp; Grenadines 
+            <option value="WSM">Samoa 
+            <option value="SMR">San Marino 
+            <option value="STP">Sao Tome &amp; Principe 
+            <option value="SAU">Saudi Arabia 
+            <option value="SEN">Senegal 
+            <option value="SYC">Seychelles 
+            <option value="SLE">Sierra Leona 
+            <option value="SGP">Singapore 
+            <option value="SVK">Slovakia (Slovak Rep) 
+            <option value="SVN">Slovenia 
+            <option value="SLB">Solomon Islands 
+            <option value="SOM">Somalia 
+            <option value="ZAF">South Africa 
+            <option value="SGS">S Georgia &amp; Sandwich Isles 
+            <option value="ESP">Spain 
+            <option value="LKA">Sri Lanka 
+            <option value="SHN">St. Helena 
+            <option value="SPM">St. Pierre &amp; Miquelon 
+            <option value="SDN">Sudan 
+            <option value="SUR">Suriname 
+            <option value="SJM">Svalbard &amp; Jan Mayen Islands 
+            <option value="SWZ">Swaziland 
+            <option value="SWE">Sweden 
+            <option value="CHE">Switzerland 
+            <option value="SYR">Syria 
+            <option value="TWN">Taiwan 
+            <option value="TJK">Tajikistan 
+            <option value="TZA">Tanzania 
+            <option value="THA">Thailand 
+            <option value="TGO">Togo 
+            <option value="TKL">Tokelau 
+            <option value="TON">Tonga 
+            <option value="TTO">Trinidad &amp; Tobago 
+            <option value="TUN">Tunisia 
+            <option value="TUR">Turkey 
+            <option value="TKM">Turkmenistan 
+            <option value="TCA">Turks &amp; Caicos Islands 
+            <option value="TUV">Tuvalu 
+            <option value="UGA">Uganda 
+            <option value="UKR">Ukraine 
+            <option value="ARE">United Arab Emirates 
+            <option value="GBR">United Kingdom 
+            <option value=USA selected>United States 
+            <option value="UMI">US Minor Outlying Isles 
+            <option value="URY">Uruguay 
+            <option value="UZB">Uzbekistan 
+            <option value="VUT">Vanuatu 
+            <option value="VEN">Venezuela 
+            <option value="VNM">Viet Nam 
+            <option value="VGB">Virgin Isles (British) 
+            <option value="VIR">Virgin Isles (U.S.) 
+            <option value="WLF">Wallis &amp; Futuna Islands 
+            <option value="ESH">Western Sahara 
+            <option value="YEM">Yemen 
+            <option value="YUG">Yugoslavia 
+            <option value="ZMB">Zambia 
+            <option value="ZWE">Zimbabwe 
+            <option value="none">None</option>
+          </select>
+          </font></p>
+        <p><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> <b>zip 
+          or postal code</b> <font color="#333399">*</font><br>
+          <input maxlength="20" size="20" name="zip">
+          </font></p>
+        </td>
+    </tr>
+  </table>
+  <p><b><font size="1" face="Verdana, Arial, Helvetica, sans-serif">Specify your 
+    preferred language for communication about Macromedia products and services. 
+    <font color="#333399">*</font></font></b><br>
+    <br>
+    <select name="language">
+      <option selected><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><b>English</b></font></option>
+      <option><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><b>French</b></font></option>
+      <option><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><b>German</b></font></option>
+      <option><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><b>Italian</b></font></option>
+      <option><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><b>Japanese</b></font></option>
+      <option><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><b>Korean</b></font></option>
+      <option><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><b>Portuguese</b></font></option>
+      <option><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><b>Spanish</b></font></option>
+      <option><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><b>Swedish</b></font></option>
+      <option><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><b>Simplified Chinese</b></font></option>
+      <option><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><b>Traditional 
+      Chinese</b></font></option>
+    </select>
+  </p>
+  <p><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><b>Please check 
+    the Macromedia product(s) you currently use. (Select all that apply)</b></font></p>
+  <table width="680"  border="0" cellpadding="0"  cellspacing="0">
+    <tr> 
+      <td><font size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
+        <input type="checkbox" name="checkbox43" value="checkbox">
+        Authorware</font></td>
+      <td><font size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
+        <input type="checkbox" name="checkbox422" value="checkbox">
+        ColdFusion</font></td>
+      <td><font size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
+        <input type="checkbox" name="checkbox3263" value="checkbox">
+        Director</font></td>
+      <td><font size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
+        <input type="checkbox" name="checkbox222" value="checkbox">
+        Dreamweaver</font></td>
+    </tr>
+    <tr> 
+      <td><font size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
+        <input type="checkbox" name="checkbox32622" value="checkbox">
+        Dreamweaver Ultradev</font></td>
+      <td><font size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
+        <input type="checkbox" name="checkbox3224" value="checkbox">
+        Fireworks</font></td>
+      <td><font size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
+        <input type="checkbox" name="checkbox327" value="checkbox">
+        Macromedia Flash</font></td>
+      <td><font size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
+        <input type="checkbox" name="checkbox3232" value="checkbox">
+        FreeHand</font></td>
+    </tr>
+    <tr> 
+      <td><font size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
+        <input type="checkbox" name="checkbox32222" value="checkbox">
+        HomeSite</font></td>
+      <td><font size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
+        <input type="checkbox" name="checkbox32232" value="checkbox">
+        JRun</font></td>
+      <td><font size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
+        <input type="checkbox" name="checkbox3242" value="checkbox">
+        Macromedia Studio MX</font></td>
+      <td><font size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
+        <input type="checkbox" name="checkbox3252" value="checkbox">
+        Sitespring</font></td>
+    </tr>
+  </table>
+<b><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><br>
+  </font></b> 
+  <p><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><b>Please send 
+    me news about upgrades, discounts and special promotions.<br>
+    I prefer to receive e-mail in: (Check only one)</b></font> </p>
+  <table width="450"  border="0" cellpadding="0"  cellspacing="0">
+    <tr> 
+      <td><font size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
+        <input type="checkbox" name="checkbox5" value="checkbox">
+        HTML</font></td>
+      <td> 
+        <div align="center"><font size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
+          <input type="checkbox" name="checkbox23" value="checkbox">
+          ASCII (plain text) </font></div>
+      </td>
+      <td> 
+        <div align="center"><font size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
+          <input type="checkbox" name="checkbox33" value="checkbox" checked>
+          HTML with rich media</font></div>
+      </td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+  <p><br>
+  </p>
+  <hr size="1">
+  <p>&nbsp;</p>
+  <p><br>
+    <font size="1" face="Verdana, Arial, Helvetica, sans-serif"><b>Complete the 
+    form, then FAX or MAIL the form to Macromedia:</b> </font> </p>
+  <table width="470" border="0">
+    <tr> 
+      <td width="33%" valign="bottom"><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><b>Fax 
+        to (US Number):</b><br>
+        </font></td>
+      <td width="7%" valign="top"><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><br>
+        <br>
+        </font></td>
+      <td width="60%" valign="bottom"><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><b>Mail 
+        Registration to:</b></font></td>
+    </tr>
+    <tr> 
+      <td width="33%" valign="top"><font size="1" face="Verdana, Arial, Helvetica, sans-serif">+1 
+        (408) 428-9801</font></td>
+      <td width="7%" valign="bottom">&nbsp;</td>
+      <td width="60%" valign="top"><font size="1" face="Verdana, Arial, Helvetica, sans-serif">Macromedia<br>
+        2548 Zanker Road<br>
+        San Jose, CA 95131-9849<br>
+        U.S.A.</font></td>
+    </tr>
+  </table>
+  <p><font size="1" face="Verdana, Arial, Helvetica, sans-serif"><b>Or register 
+    online by choosing Online Registration from the Help menu in Dreamweaver MX 
+    or Fireworks MX.</b></font></p>
+<p><br>
+    <font 
+            color="#333333" size="1" face="Verdana, Arial, Helvetica, sans-serif">©1995-2002 
+    Macromedia, Inc. <a 
+            href="http://www.macromedia.com/help/copyright.html"><font 
+            color="#999999">All rights reserved.</font></a><br>
+    <a target=_top 
+            href="http://www.macromedia.com/help/accessibility.html"><font 
+            color="#999999">Accessibility</font></a> | <a 
+            href="http://www.macromedia.com/help/privacy.html"><font 
+            color="#999999">Privacy policy</font></a> | <a target=_top 
+            href="http://www.macromedia.com/macromedia/contact/"><font 
+            color="#999999">Contact us</font></a> | <a target=_top 
+            href="http://www.macromedia.com/sitemap/"><font color="#999999">Site 
+    Map</font></a></font></p>
+  <p>&nbsp;</p>
+</form>
+</body>
+</html>
